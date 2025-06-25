@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#display-bar {
+    width: 400px;
+    height: 140px;
+    margin: 100px auto 0 auto;
+}
+#title-bar {
+    width: 400px;
+    height: 40px;
+    background-color: rgb(69, 69, 69); 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#result-nums {
+    width: 400px;
+    height: 100px;
+    background: black;
+}
+#keypad {
+    width: 400px;
+    height: 380px;
+    background-color: #c02323;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.buttons {
+    width: 80px;
+    height: 80px;
+    background-color: aqua;
+    border-radius: 80px;
+    margin: 4px;
+    font-size: 26px;
+    cursor: pointer;
+}
