@@ -7,8 +7,8 @@ document.querySelectorAll(".buttons").forEach(button => {
 
         if (value === "=") {
             expression = eval(expression);
-            // resultbox.innerText = expression;
-            resultbox.innerText = "I LOVE YOU ISHITHAWWWW";
+            resultbox.innerText = expression;
+            // resultbox.innerText = "I LOVE YOU ISHITHAWWWW";
         } 
         else if (value === "C") {
             expression = "";
@@ -21,5 +21,6 @@ document.querySelectorAll(".buttons").forEach(button => {
     });
 
 });
+
 
 
