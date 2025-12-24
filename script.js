@@ -7,8 +7,8 @@ document.querySelectorAll(".buttons").forEach(button => {
 
         if (value === "=") {
             expression = eval(expression);
-            // resultbox.innerText = expression;
-            resultbox.innerText = "PURNIMA IS FAT PIECE OF SHIT";
+            resultbox.innerText = expression;
+            // resultbox.innerText = "I LOVE YOUUUU";
         } 
         else if (value === "C") {
             expression = "";
@@ -21,6 +21,7 @@ document.querySelectorAll(".buttons").forEach(button => {
     });
 
 });
+
 
 
 
